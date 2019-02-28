@@ -1,0 +1,18 @@
+vstupy: x,y
+vystoup: nad primkou , pod primkou
+aktivaèní fuknce : signum (-1,0,1)
+
+funkce: 2x+1
+
+knihovny: numpy, matplotlib => pyplot
+
+plt.plot
+plt.scatter(xx_c, yy_c, c=cclolors)
+plt.grid(true)
+plt.show()
+
+puvodni vaha + error * vstup * ucici konstanta 0,1
+
+ucekavana - predpovezena
+
+50 epoch
