@@ -20,7 +20,7 @@ def fitness_function(x, y):
 training_inputs = []
 testing_inputs = []
 for i in range(NO_TRAINING_INPUTS):
-    xy = np.random.randint(-25,25, size=2)
+    xy = np.random.randint(-25, 25, size=2)
     training_inputs.append(np.array(xy))
 
 labels = np.array([])
@@ -31,18 +31,19 @@ perceptron = Perceptron(2, threshold=THRESH_HOLD)
 perceptron.train(training_inputs, labels)
 
 
-for i in range(NO_TESTING_INPUTS) :
-    xy = np.random.randint(-25,25, size=2)
+for i in range(NO_TESTING_INPUTS):
+    xy = np.random.randint(-25, 25, size=2)
     testing_inputs.append(np.array(xy))
 
 
-xAxis = np.arange(-25,25,1)
+xAxis = np.arange(-25, 25, 1)
+xAxis = np.arange(-25, 25, 1)
 plt.plot(xAxis, 2 * xAxis + 1)
 plt.grid()
 
 for x in testing_inputs:
     result = perceptron.predict(x)
-    color = "yelow"
+    color = "yellow"
     if result == 1:
         color = "green"
     elif result == -1:

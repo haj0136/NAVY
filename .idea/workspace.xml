@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d955ba18-5233-4859-88fb-e2301ad0fd49" name="Default" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/CV_1/Perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/CV_1/Perceptron.py" afterDir="false" />
+    <list default="true" id="d955ba18-5233-4859-88fb-e2301ad0fd49" name="Default" comment="fix project">
+      <change afterPath="$PROJECT_DIR$/CV_1/task2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CV_1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/CV_1/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CV_1/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="153">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -96,7 +97,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -134,6 +135,9 @@
       <module name="NAVY" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CV_1" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -210,7 +214,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551355841465</updated>
       <workItem from="1551363048653" duration="827000" />
-      <workItem from="1551958645526" duration="3015000" />
+      <workItem from="1551958645526" duration="3497000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1551961529977</created>
@@ -219,23 +223,36 @@
       <option name="project" value="LOCAL" />
       <updated>1551961529977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix project">
+      <created>1551962067248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551962067248</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix project">
+      <created>1551962203208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551962203208</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3842000" />
+    <option name="totallyTimeSpent" value="4324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4975" visible="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4975" visible="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39784947" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -249,7 +266,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.24228792" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.19537275" />
       <window_info anchor="right" x="0" y="0" width="354" height="676" id="Documentation" order="4" side_tool="true" weight="0.32969153" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -259,7 +276,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="fix project" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CV_1/TASK1.txt">
@@ -295,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CV_1/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="153">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
