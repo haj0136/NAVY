@@ -1,0 +1,11 @@
+Hopfield network
+
+1                   1
+0      pøevedu na  -1
+1                   1
+0                  -1
+
+W = XX^T
+W - I (nuly na diagonale)
+
+použít evoluce na XOR a upravit váhy
