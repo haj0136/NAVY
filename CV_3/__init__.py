@@ -2,8 +2,8 @@ import numpy as np
 from CV_3.NeuralNetwork import NeuralNetwork
 
 if __name__ == '__main__':
-    LEARNING_RATE = 0.001
-    NUMBER_OF_EPOCHS = 100000
+    LEARNING_RATE = 0.01
+    NUMBER_OF_EPOCHS = 20000
 
     nn = NeuralNetwork([2, 2, 1])
 

@@ -69,7 +69,7 @@ class NeuralNetwork:
             x = [Z[sample]]
             y = self.forward(x, self.weights)
             target = labels[sample]
-            error += abs(target - y[-1])
+            error += pow(target - y[-1], 2)
 
         for k in range(epochs):
             if (k + 1) % 10000 == 0:
@@ -91,7 +91,7 @@ class NeuralNetwork:
                 x = [Z[sample]]
                 y = self.forward(x, new_weights)
                 target = labels[sample]
-                test_error += abs(target - y[-1])
+                test_error += pow(target - y[-1], 2)
 
             if abs(test_error) < abs(error):
                 self.weights = new_weights
