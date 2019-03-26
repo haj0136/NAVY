@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def learn(learn_data):
     k = len(learn_data[0])
     hopfield = np.zeros([k, k])
