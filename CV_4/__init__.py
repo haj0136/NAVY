@@ -41,6 +41,6 @@ if __name__ == '__main__':
     model.compile(optimizer=sgd, loss='mean_squared_error')
 
     model.fit(X, labels, batch_size=1, epochs=1000, verbose=0)
-    print(model.predict(np.array([[0.1, a]])))
+    print(model.predict(np.array([[0.2, a]])))
 
 
