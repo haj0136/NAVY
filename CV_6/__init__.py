@@ -42,9 +42,10 @@ if __name__ == '__main__':
     snowflake = 'F+F--F+F'
     tree1 = 'F[+F]F[-F]F'
     tree2 = 'FF+[+F-F-F]-[-F+F+F]'
+    # plt.figure(dpi=200)
 
     first_position = [0, 0]
 
-    draw_fractal(first_position, tree2, first_angle, 4)
+    draw_fractal(first_position, tree2, first_angle, 3)
     plt.axis("equal")
     plt.show()
