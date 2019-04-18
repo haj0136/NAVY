@@ -1,0 +1,13 @@
+1000 iterací
+720*720
+
+r2 = np.linspace(xmin, xmax, width)
+n3
+
+minX = -2
+maxX = 0.5
+minY = -1.25
+maxY = 1.25
+
+z = r1 +1j*r2
+z = z*z+c
